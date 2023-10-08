@@ -11,8 +11,265 @@
 </head>
 
 <body>
-    hello
-    <script src="script.js">
+    <nav id="desktop-nav">
+        <div class="logo">Sam Carter </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sam Carter</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="" onclick="toggleMenu()">About</a></li>
+                <li><a href="" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="/pictures/sam2.png" alt="Sam Carter Picture" class="main_picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sam Carter</h1>
+            <p class="section__text__p2">Comp Sci Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('documents/ResumeV2.pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="window.location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="pictures/linkedin.png" alt="My Linkedin Profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/sam-j-carter'">
+                <img src="pictures/github.png" alt="My GitHub Profile" class="icon"
+                    onclick="location.href='https://github.com/SamCarter14'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="pictures/sam.jpeg" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="pictures/computer.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years<br /> Frontend developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="pictures/book.png" alt="Experience icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Bachelors degree<br /> Frontend developer</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam lorem, porta id feugiat sed,
+                        maximus mollis leo. Nam dui metus, aliquet sed libero non, laoreet congue lectus. Quisque quis
+                        elit maximus, tincidunt augue vel, ornare orci. In nec mollis magna, et tincidunt ipsum. Nam
+                        turpis mauris, auctor condimentum vestibulum dapibus, mattis eu ante. Curabitur laoreet ut lorem
+                        ut euismod. In ac finibus sapien. Vivamus blandit, ligula in auctor fringilla, elit leo
+                        vestibulum massa, ut malesuada tellus tortor vel sapien. Donec rutrum vel lorem ullamcorper
+                        pellentesque.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./pictures/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./pictures/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="pictures/sam.jpeg" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title"></h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://cs.gonzaga.edu/hackathon/2023/index.html'">
+                            Hackathon
+                        </button>
+
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="pictures/sam.jpeg " alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title"></h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://cs.gonzaga.edu/hackathon/2023/index.html'">
+                            Hackathon
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./pictures/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <a href="mailto:scarter6@zagmail.gonzaga.edu"><img src="pictures/email.png" alt="Email Icon"
+                        class="icon contact-icon"></a>
+                <p><a href="mailto:scarter6@zagmail.gonzaga.edu">scarter6@zagmail.gonzaga.edu</a></p>
+            </div>
+
+            <div class="contact-info-container">
+                <a href="https://www.linkedin.com/in/sam-j-carter"><img src="pictures/linkedin.png" alt="LinkedIn Icon"
+                        class="icon contact-icon"></a>
+                <p><a href="https://www.linkedin.com/in/sam-j-carter">LinkedIn</a></p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>2023 Sam Carter</p>
+    </footer>
+
+    <script src=" script.js">
 
     </script>
 </body>
