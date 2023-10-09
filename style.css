@@ -148,6 +148,7 @@ a:hover {
 /* Start Sections */
 
 section {
+    position: relative;
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
@@ -328,6 +329,7 @@ section {
     position: relative;
 }
 
+
 .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
@@ -339,6 +341,11 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.skills {
+    width: 50%;
+    margin: auto;
 }
 
 .article-container {
@@ -357,8 +364,16 @@ article {
     gap: 0.5rem;
 }
 
+.article2 {
+    text-align: justify;
+}
+
 article .icon {
     cursor: default;
+}
+
+#experience h3 {
+    font-size: 1rem;
 }
 
 /* Projects Section */
@@ -373,6 +388,7 @@ article .icon {
 }
 
 .project-img {
+    border: black .1rem solid;
     border-radius: 2rem;
     width: 90%;
     height: 90%
