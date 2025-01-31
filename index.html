@@ -48,7 +48,7 @@
             <h1 class="title">Sam Carter</h1>
             <p class="section__text__p2">Comp Sci Student</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('documents/ResumeV4.pdf')">Download Resume</button>
+                <button class="btn btn-color-2" onclick="window.open('documents/Carter_Sam_Resume.pdf')">Download Resume</button>
                 <button class="btn btn-color-1" onclick="window.location.href='./#contact'">Contact Info</button>
             </div>
             <div id="socials-container">
@@ -78,7 +78,7 @@
                     <div class="details-container">
                         <img src="pictures/computer.png" alt="Experience icon" class="icon">
                         <h3>Experience</h3>
-                        <p>Datacenter Technician<br />Groq</p>
+                        <p>Software Developer Intern<br />Datacenter Technician</p>
                     </div>
                 </div>
                 <div class="text-container">
@@ -90,10 +90,7 @@
                         became captivated by the world of CS, falling in love with the idea of creating applications for
                         others to use. My my ultimate dream is to combine my passion for technology with my love for
                         sports. I aspire to work with a professional sports team, leveraging my skills in computer
-                        science to contribute to their success. In fact, this semester, I am currently working on a
-                        class project analyzing NBA data to predict the biggest statistical contributors to NBA players
-                        getting voted to the All-Star team.
-
+                        science to contribute to their success. 
                     </p>
                 </div>
             </div>
@@ -107,11 +104,29 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
+                    <h2 class="experience-sub-title">Software Developer Intern</h2>
+                    <div class="article-container">
+                        <div class="article-container">
+                            <p2>
+                                During my internship at Groq as a Software Application Developer, I built a monitoring website to manage 
+                                PDUs across three data centers, equating to roughly 170 racks. Users could control outlets and nodes via bash 
+                                scripts that accessed PDUs using SNMP commands and DNS. The site also tracked power consumption with detailed 
+                                graphs by PDU, rack, cage, and data center, and allowed easy addition of new racks via an automated Bash script.
+                                <br>
+                                <br>
+                                The system was containerized with Docker, running the main site, PostgreSQL client, and database in separate containers. 
+                                The backend stored power consumption history and user credentials with hashed passwords in PostgreSQL. I integrated a 
+                                webhook API to notify a Slack channel whenever a user turned a node on or off. 
+                                <p2>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-container">
                     <h2 class="experience-sub-title">Datacenter Technician</h2>
                     <div class="article-container">
                         <div class="article-container">
                             <p2>
-                                During my time at Groq, I was responsible for setting up datacenter equipment,
+                                During my time at Groq as a datacenter technician, I was responsible for setting up datacenter equipment,
                                 specifically, installing racks of hardware. This involved deploying nine GroqNode
                                 Servers in each rack using a rotational topology. Additionally, I configured two
                                 switches for each rack, implementing IP routing and default gateways.
@@ -126,11 +141,11 @@
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">GU ACM Vice President</h2>
+                    <h2 class="experience-sub-title">GU ACM President</h2>
                     <div class="article-container">
                         <div class="article2">
-                            <p2>Right now, I'm in the midst of coordinating a big Hackathon that's bringing together
-                                students from multiple schools, where we plan on getting over 100 students on board.
+                             <p2>Last semester, I coordinated a multi-school Hackathon at Gonzaga University with local sponsors from the industry. This included
+                                managing fundraising and hosting team meetings to plan for the event.
                                 <br>
                                 <br>
                                 In addition, our club does weekly meetings to get more people experience in the world of
@@ -177,7 +192,7 @@
                             <article>
                                 <img src="/pictures/bulletPoint.png" alt="Experience Icon" class="icon">
                                 <div>
-                                    <h3>Data Science</h3>
+                                    <h3>PostgreSQL</h3>
                                 </div>
                             </article>
                             <article>
@@ -201,26 +216,38 @@
             <div class="about-containers">
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="pictures/Screenshot 2023-10-08 at 8.01.32 PM.png" alt="Project 1" class="project-img">
+                        <img src="pictures/MyPL.png" alt="Project 1" class="project-img">
                     </div>
                     <h2 class="experience-sub-title project-title"></h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://cs.gonzaga.edu/hackathon/2023/index.html'">
-                            Hackathon
+                            onclick="location.href='https://www.youtube.com/watch?v=achhhcLp-vo'">
+                            MyPL Project
                         </button>
 
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="pictures/Screenshot 2023-10-08 at 7.52.48 PM.png" alt="Project 1" class="project-img">
+                        <img src="pictures/LongestRoad.png" alt="Project 1" class="project-img">
                     </div>
                     <h2 class="experience-sub-title project-title"></h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://cs.gonzaga.edu/acm/'">
-                            GU ACM
+                            onclick="location.href='https://github.com/SamCarter14/LongestRoadCatan'">
+                            Longest Road Depth-First Search 
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="pictures/HistoricalStock.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title"></h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://www.youtube.com/watch?v=VsT1I-TI3SA&t=3s'">
+                            Historical Stock Calculator
                         </button>
 
                     </div>
